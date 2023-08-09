@@ -242,6 +242,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     data: p0.message,
                     shrinkWrap: true,
                     styleSheet: MarkdownStyleSheet(),
+                    physics: NeverScrollableScrollPhysics(), // スクロール
                   ),
                 ],
               ),
